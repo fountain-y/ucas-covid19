@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: python enroll.py
+        run: pwd
 #         run: echo '123' >> README.md
 
 #       # Runs a set of commands using the runners shell
