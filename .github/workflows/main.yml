@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: pwd
+        run: echo '123' >> /home/runner/work/ucas-covid19/ucas-covid19/README.md
 #         run: echo '123' >> README.md
 
 #       # Runs a set of commands using the runners shell
