@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: myAction
 
 # Controls when the workflow will run
 on:
@@ -41,11 +41,4 @@ jobs:
           SEP_USER_NAME: ${{ secrets.SEP_USER_NAME }}
           SEP_PASSWD: ${{ secrets.SEP_PASSWD }}
         run: python sub.py
-#         run: echo '123' >> README.md
-
-#       # Runs a set of commands using the runners shell
-#       - name: Run a multi-line script
-#         run: |
-#           pwd
-#           echo Add other actions to build,
-#           echo test, and deploy your project.
+        
