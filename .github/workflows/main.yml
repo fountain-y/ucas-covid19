@@ -38,7 +38,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         env:
-          GITHUB_RUN_ID: ${{ secrets.GITHUB_RUN_ID }}
+          SEP_USER_NAME: ${{ secrets.SEP_USER_NAME }}
+          SEP_PASSWD: ${{ secrets.SEP_PASSWD }}
         run: python sub.py
 #         run: echo '123' >> README.md
 
